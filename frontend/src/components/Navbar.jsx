@@ -47,6 +47,8 @@ const Navbar = () => {
                 <img src={assets.cart_icon} alt="" className='w-5 min-w-5 filter invert' />
                 <span className='absolute right-[-5px] bottom-[-5px] flex items-center justify-center text-white bg-black w-4 h-4 rounded-full text-[8px] font-bold'>10</span>
             </Link>
+                {/* for mobile screen */}
+            <img src={assets.menu_icon} alt="" className='w-5 cursor-pointer sm:hidden' />
 
         </div>
 
